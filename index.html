@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rama Krishna Vemula Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Rama krishna Vemula</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Experience</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item ">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img">
+
+	          	 <div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Hello!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Rama Krishna Vemula</span></h1>
+
+						<!-- Element to contain animated typing -->
+						
+
+						<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						const typingTexts = [
+						'Engineer  ',
+						'YouTuber  ',
+						'Teacher   ',
+						];
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+
+						</script>
+
+						<br>
+						<br>
+			            <h2>Senior Software Developer</h2>
+						
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-img">
+										<img src="images/pic.jpg" class="img-fluid rounded b-shadow-a" alt="">
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<p><span class="title-s">Name: </span> <span>Rama Krishna Vemula</span></p>
+										<p><span class="title-s">Job Role: </span> <span>Senior Software Developer</span></p>
+										<p><span class="title-s">Experience: </span> <span>7 Years</span></p>
+										<p><span class="title-s">Address: </span> <span>Dallas,Texas, United States</span></p>
+									  </div>
+									</div>
+								  </div>
+
+								<div class="skill-mf">
+									<p class="title-s">Skills</p>
+									<span>Core Java</span> <span class="pull-right">95%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Databases</span> <span class="pull-right">95%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Backend</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Cloud Technologies</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Web Technologies</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>Senior Software Developer with 7 years of experience building scalable web and cloud applications using ReactJS, NodeJS, and Java/J2EE. 
+									Skilled in Spring Boot, RESTful APIs, microservices, and containerization with Docker and Kubernetes. 
+									Experienced with AWS (EC2, S3, Lambda, RDS) and Azure, along with DevOps tools like Jenkins, Maven, Gradle, and Git. 
+									Proficient in both relational databases (Oracle, MySQL, PostgreSQL) and NoSQL systems (MongoDB, Cassandra, DynamoDB). 
+									Expertise in implementing secure authentication with OAuth2, JWT, and Spring Security. 
+									Strong background in Agile methodologies, CI/CD pipelines, and automated testing frameworks like JUnit and Mockito.</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>Senior Software Developer</span></li>
+									<li class="d-flex"><span>Domain:</span> <span>Financial, Banking, Healthcare &amp; Retail domains</span></li>
+									<li class="d-flex"><span>Education:</span> <span>Masters in Computer and Information Sciences</span></li>
+									<li class="d-flex"><span>Programming Languages:</span> <span>Core Java, C, C++, Python, SQL, PL/SQL, UNIX Shell</span></li>
+									<li class="d-flex"><span>Frameworks:</span> <span>Spring MVC, Spring Boot, Spring Security, Microservices, Hibernate, JPA.</span></li>
+									<li class="d-flex"><span>Web Technologies:</span> <span>HTML5, CSS3, Java Script, JQuery, Ajax, Bootstrap, Angular 2/4/5, NodeJS, ReactJS</span></li>
+									<li class="d-flex"><span>Databases:</span> <span>MySQL, MS SQL Server, PostgreSQL, Oracle, MongoDB</span></li>
+									<li class="d-flex"><span>Application Server:</span> <span>Apache Tomcat, IBM WebSphere Application</span></li>
+									<li class="d-flex"><span>Cloud Platforms:</span> <span>AWS, Azure,GCP</span></li>
+									<li class="d-flex"><span>XML Technologies:</span> <span>XML, XSL, DOM, JAXB, XSLT</span></li>
+									<li class="d-flex"><span>Other Tools:</span> <span>UML, Maven, Gradle, Jira, Confluence, Jenkins, JUnit, MS Excel, JMeter, TestNG, Mockito, Selenium, SVN, Karma, Jasmine, SoapUI</span></li>
+									<li class="d-flex"><span>IDEs:</span> <span>NetBeans, IntelliJ IDEA, Visual Studio Code, Eclipse</span></li>
+									<li class="d-flex"><span>Operating Systems:</span> <span>Windows, Linux, macOS</span></li>
+									<li class="d-flex"><span>Methodology:</span> <span>SDLC, Agile, Waterfall</span></li>
+									<li class="d-flex"><span>Version Control Tools:</span> <span> Git, GitHub, GitLab</span></li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+
+		<div class="row">
+			<h1 class="big-4">Experience</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Sept 2023 - Present</span>
+						<h2>Senior Software Developer</h2>
+						<span class="position">Volkswagen of America, Inc</span>
+						<p class="mt-4">SmartCart – Scalable Omnichannel E-commerce Platform. 
+							<ul>
+								<li>Designed and developed a scalable e-commerce platform for managing real-time cart, inventory, and orders.
+									Used Spring Boot microservices and ReactJS to deliver responsive UIs and modular backend services.
+									Implemented Apache Kafka for asynchronous, event-driven communication across services.
+									Stored transactional and product data using PostgreSQL and dynamic metadata in MongoDB.
+									Deployed on AWS cloud using Docker, EKS, Jenkins, and implemented Agile with full TDD practices.</li>
+					
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Oct 2021 - Aug 2023</span>
+						<h2>Software Developer</h2>
+						<span class="position">Delta Denta Ins</span>
+						<p class="mt-4">Digital Retail Platform for Super Markets. 
+							<ul>
+								<li>A comprehensive digital solution for a leading retail grocery chain aimed at enhancing customer experience, 
+									streamlining inventory and order management, 
+									and modernizing operations using full stack technologies and cloud infrastructure.</li>
+				
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Jan 2020 - Sept 2021</span>
+						<h2>Software Developer</h2>
+						<span class="position">Autozone</span>
+						<p class="mt-4">Vendor Invoice and Revenue Reporting System. 
+							<ul>
+								<li>Developed a cloud-enabled Vendor Invoice and Revenue Reporting System to streamline invoice processing, revenue reconciliation, 
+									and payment tracking across AutoZone’s vast network of parts suppliers and retail outlets. The system replaced manual processes
+									 with automated workflows to reduce delays and errors in vendor payments. It integrated with ERP and inventory platforms 
+									 to cross-validate order fulfillment, delivery, and invoicing. Microservices architecture using Spring Boot enabled modular 
+									 scalability, while the frontend built with React provided user-friendly dashboards and invoice management screens.
+									  Kafka was used for real-time event tracking between services. All services were deployed on Azure using Docker and Kubernetes, with CI/CD and monitoring for stability and traceability.</li>
+				
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">July 2018 - Dec 2019</span>
+						<h2>Java Developer</h2>
+						<span class="position">HashTag Technologies</span>
+						<p class="mt-4">Cloud-Based Data Validation & Quality Reporting Platform. 
+							<ul>
+								<li>Developed a cloud-based microservices platform for validating large datasets and automating data quality reporting. 
+									The solution enabled seamless data processing, reporting, and monitoring across enterprise systems, 
+									significantly reducing manual validation effort.</li>
+								
+							</ul>
+						</p>
+					</div>
+
+				</div>
+			</div>
+
+		<br>
+		<br>
+
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			<div class="row">
+    			<div class="big-4">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">JAN-2024 to May-2025</span>
+    					<p>Masters in Computer and Information Sciences</p>
+    					<span class="position">University of North Texas.</span>
+    				</div>
+    			</div>
+
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-4 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Dallas,Texas, USA</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-4 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://0101010101">+1 940-828-9058</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-4 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@yoursite.com">ramadev4248@gmail.com</a></p>
+	          </div>
+          </div>
+
+		  <div class="container">
+			<br>
+			<br>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					
+					  <li class="ftco-animate"><a href="http://www.linkedin.com/in/rama-krishna-vemula-sd"><span class="icon-linkedin"></span></a></li>
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
